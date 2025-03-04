@@ -67,6 +67,17 @@ input[type=text], input[type=email] {
     width: calc( 100% - 24px );
     margin-bottom: 15px;
 }
+
+input[type="tel"] {
+    margin-bottom: 20px;
+}
+.required {
+    color: red;
+    display: inline;
+    margin-left: 5px;
+    background: none;
+}
+
 form .flexbox {
     display: flex;
     align-items: center;
